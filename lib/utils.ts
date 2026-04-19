@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export const MOOD_CONFIG: Record<
   MoodLevel,
-  { label: string; emoji: string; color: string; bg: string; ring: string }
+  { label: string; emoji: string; color: string; bg: string; ring: string; hex: string }
 > = {
   great: {
     label: "Great",
@@ -16,6 +16,7 @@ export const MOOD_CONFIG: Record<
     color: "text-emerald-400",
     bg: "bg-emerald-400",
     ring: "ring-emerald-400",
+    hex: "#34d399",
   },
   good: {
     label: "Good",
@@ -23,6 +24,7 @@ export const MOOD_CONFIG: Record<
     color: "text-green-300",
     bg: "bg-green-300",
     ring: "ring-green-300",
+    hex: "#86efac",
   },
   okay: {
     label: "Okay",
@@ -30,6 +32,7 @@ export const MOOD_CONFIG: Record<
     color: "text-yellow-400",
     bg: "bg-yellow-400",
     ring: "ring-yellow-400",
+    hex: "#facc15",
   },
   bad: {
     label: "Bad",
@@ -37,6 +40,7 @@ export const MOOD_CONFIG: Record<
     color: "text-orange-400",
     bg: "bg-orange-400",
     ring: "ring-orange-400",
+    hex: "#f97316",
   },
   awful: {
     label: "Awful",
@@ -44,6 +48,7 @@ export const MOOD_CONFIG: Record<
     color: "text-red-400",
     bg: "bg-red-400",
     ring: "ring-red-400",
+    hex: "#f87171",
   },
 };
 
