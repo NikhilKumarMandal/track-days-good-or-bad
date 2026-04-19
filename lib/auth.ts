@@ -9,6 +9,8 @@ export const auth = betterAuth({
     basePath: "/api/auth",
     trustedOrigins: [
         "http://localhost:3000",
+        "https://track.nikhilkumar007.com",
+        "https://www.track.nikhilkumar007.com"
     ],
     database: drizzleAdapter(db, {
         provider: "pg",
